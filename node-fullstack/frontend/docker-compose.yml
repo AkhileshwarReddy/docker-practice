@@ -20,3 +20,6 @@ services:
       - .:/app
     command: ["npm", "run", "test"]
     restart: always
+  
+  nginx:
+    image: nginx:alpine
